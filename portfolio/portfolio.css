@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Sans'); 
+
+
+body {
+	background: #f5f5f5; /*цвет фона*/
+	font-family: 'PT Sans', sans-serif; /*шрифт текста*/
+	font-weight: 500; /*насыщенность шрифта*/
+	font-size: 13px; /*размер шрифта*/
+	color: #555; /*цвет текста на общем фоне*/
+
+	-webkit-font-smoothing: antialiased; /*гладкий шрифт на мобильных устройствах*/
+    -webkit-overflow-scrolling: touch; /*Позволяет сделать плавный скролл пальцем в блоке в IOS 5+*/
+ 
+     position: relative;
+     margin: 0;
+     padding: 0;}
+
+
+ h1, h2 {
+ 	font-family: 'Arial';} /*Шрифт заголовков*/
+ 	
+
+  
+
+ p {
+ 	line-height: 28px; /*межстрочный интервал*/
+ 	margin-bottom: 25px; /*Устанавливает величину отступа от нижнего края элемента*/}
+
+ .centered {
+ 	text-align: center; /*Выравнивание текста по центру*/}
+
+ a {
+ 	outline: none; /* Убираем границу вокруг ссылок  */
+ 	color: black;} /*цвет ссылок*/
+
+ a:hover, a:focus {
+ 	color: #999; /*Цвет ссылок при наведение - серый*/
+ 	text-decoration: none; /*Отменяет все эффекты, в том числе и подчеркивания у ссылок, которое задано по умолчанию.*/
+ 	outline: none;/*толщина линии у ссылки 0*/}		
+
+
+ hr {
+    display: block;
+    width: 195px;}/*длина полосы*/
+
+
+.navbar {
+	font-weight: 700; /*Насыщенность шрифта в навигации*/
+	font-size: 14px; /*Размер шрифта навигации*/
+    padding-top: 15px; /*Отступ от верхнего края контейнера навигации до границы браузера*/
+	padding-bottom: 15px; /*Отступ от верхнего края контейнера навигации до границы body*/
+	margin-bottom: 0px;}
+
+
+	
+
+.navbar-default { 
+	background: white; /*цвет фона навигационного меню*/
+	border-color: white; /*Цвет рамки навигационного меню*/}	
+
+
+.navbar-default .navbar-brand {
+	font-family: 'Open Sans Condensed', sans-serif;
+    color: black;  /* цвет cсылки логотипа */
+	font-weight: bold;  /* насыщенность шрифта логотипа */
+	font-size: 24px;  /* размер логотипа */
+    background-position: center center;}  /* позиционирование логотипа по горизонтали, по вертикали*/
+
+ .navbar-default .navbar-nav .active a {
+	color: #999; }/* цвет активной ссылки */
+        
+
+
+.navbar-default .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: #999; } /* цвет логотипа, при поднесении к нему курсора мышки или при
+его нахождении в фокусе */
+
+ .navbar-default .navbar-nav > li > a { 
+ 	color: black;} /* Цвет пунктов навигационного меню - светло-серый*/ 
+
+ .navbar-default .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus { 
+ 	color: #999;} /* Цвет пункта меню, при поднесении к нему курсора мышки или при фокусе*/
+ 
+ .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+ 	background-color: transparent;}
+
+header {
+    padding: 90px 0 90px;}
+
+.intro-header {
+	background: url(../img/rubin.jpg) no-repeat center top;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    height: 295px;
+    line-height: 1;
+    
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+
+
+ h1 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: white;
+        font-size: 32px;
+        font-weight: 500; /*насыщенность шрифта*/
+        letter-spacing: 3px; /*межбуквенный интервал*/
+        text-transform: uppercase;} /*Все слова прописаны с верхним регистром*/
+
+
+  h2 {
+
+
+        font-size: 22px;
+        line-height: 1.2em;
+        font-weight: 600;
+        font-family: 'PT Sans', sans-serif;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin: 0px;
+        text-align: center;
+        padding-bottom: 20px;
+       
+        color: #333;}
+
+
+
+
+.btn {
+ font-family: 'PT Sans', sans-serif; /*шрифт текста*/   
+ background-color: white;
+ border: 1.5px solid #d1d1d1;
+ color: #525252;}
+
+ .btn-success:hover,
+ .btn-success:focus {
+  background-color: #d1d1d1;
+  border: 1px solid #d1d1d1;
+  color: #525252;}  
+
+  footer {
+ padding: 50px 0 20px; 
+}
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+}
+footer .copyright {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 0;}
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;}  

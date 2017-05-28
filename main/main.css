@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Sans'); 
+
+body {
+	background: #f2f2f2; /*цвет фона*/
+	font-family: 'PT Sans', sans-serif; /*шрифт текста*/
+	font-weight: 500; /*насыщенность шрифта*/
+	font-size: 13px; /*размер шрифта*/
+	color: #555; /*цвет текста на общем фоне*/
+
+	-webkit-font-smoothing: antialiased; /*гладкий шрифт на мобильных устройствах*/
+    -webkit-overflow-scrolling: touch; /*Позволяет сделать плавный скролл пальцем в блоке в IOS 5+*/
+  
+    position: relative;
+    margin: 0;
+    padding: 0;}
+
+
+ 	
+
+  
+
+ p {
+    font-size: 18px;
+ 	line-height: 28px; /*межстрочный интервал*/
+ 	margin-bottom: 25px; /*Устанавливает величину отступа от нижнего края элемента*/}
+
+ .centered {
+ 	text-align: center; /*Выравнивание текста по центру*/}
+
+ a {
+ 	color: white;} /*цвет ссылок*/
+
+ a:hover, a:focus {
+ 	color: #7b7b7b; /*Цвет ссылок при наведение - серый*/
+ 	text-decoration: none; /*Отменяет все эффекты, в том числе и подчеркивания у ссылок, которое задано по умолчанию.*/
+ 	outline: 0; /*толщина линии у ссылки 0*/}		
+
+
+	
+
+.navbar {
+	font-weight: 700; /*Насыщенность шрифта в навигации*/
+	font-size: 14px; /*Размер шрифта навигации*/
+    padding-top: 15px; /*Отступ от верхнего края контейнера навигации до границы браузера*/
+	padding-bottom: 15px; /*Отступ от верхнего края контейнера навигации до границы body*/
+    margin-bottom: 0px;}
+
+.navbar-inverse { 
+	background: #000000; /*цвет фона навигационного меню*/
+	border-color: #000000; /*Цвет рамки навигационного меню*/}	
+
+
+.navbar-inverse .navbar-brand {
+    font-family: 'Open Sans Condensed', sans-serif;
+	color: #999;  /* цвет логотипа */
+	font-weight: bold;  /* насыщенность шрифта логотипа */
+	font-size: 24px;  /* размер логотипа */
+    background-position: center center;}  /* позиционирование логотипа по горизонтали, по вертикали*/
+
+ .navbar-inverse .navbar-nav .active a {
+	color: white; /* цвет активной ссылки */}    
+
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: white; } /* цвет логотипа, при поднесении к нему курсора мышки или при
+его нахождении в фокусе */
+
+ .navbar-inverse .navbar-nav > li > a { 
+ 	color: #999; } /* Цвет пунктов навигационного меню - светло-серый*/ 
+
+ .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus { 
+ 	color: white; } /* Цвет пункта меню, при поднесении к нему курсора мышки или при
+его нахождении в фокусе */
+ 
+ .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+ 	background-color: transparent;}
+
+.headerwrap {
+	background: url(../img/bb.jpg) no-repeat center top; /*путь откуда брали фоновый рисунок*/
+	box-shadow:0 0 0 1000px rgba(0, 0, 0, 0.6) inset; /*затенение фонового рисунка*/
+	padding-top: 80px;
+
+
+    text-align: center; /*Позиционирование текста в коробки обертки по центру*/
+    height: 620px;
+   
+    
+
+    background-size: 100%;  /*размер фоновой картинки в 100 процентах */
+
+
+	-webkit-background-size: cover; /**/
+	-moz-background-size: cover; /**/
+    -o-background-size: cover; /**/
+    background-size: cover;} /**/
+
+
+
+
+
+  h1 {  
+        
+        margin-top: 220px;
+        color: white;
+        font-size: 46px;
+        font-weight: 100px;
+        letter-spacing: 3px;}
+
+  h2 {
+        
+        color: white;
+        font-size: 16px;
+        font-weight: 100;
+        letter-spacing: 2px;
+        text-transform: uppercase;}
+
+
+   .services {
+    background: url(../img/2.jpg) no-repeat center top; /*путь откуда брали фоновый рисунок*/
+   
+    padding-bottom: 80px;
+    text-align: center; /*Позиционирование текста в коробки обертки по центру*/
+    height: 100%;
+   
+    
+
+    background-size: 100%;  /*размер фоновой картинки в 100 процентах */
+
+
+    -webkit-background-size: cover; /**/
+    -moz-background-size: cover; /**/
+    -o-background-size: cover; /**/
+    background-size: cover;} /**/  
+
+
+  h3 {
+
+
+        font-size: 32px;
+        line-height: 1.2em;
+        font-weight: 600;
+        font-family: 'PT Sans', sans-serif;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin: 0px;
+        text-align: center;
+        margin-top: 80px;
+        padding-bottom: 20px;
+        color: #333;}
+
+
+ .row {
+    margin-right: 20px;
+    margin-left: 20px;}       
+
+ .title1 {
+    position: relative;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #e2e2e2;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    display: inline-block;
+    vertical-align: top;}
+
+.title1::before {
+    content: "";
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    margin: auto;
+    margin-top: -1px;
+    background-color: #808080;
+    z-index: 1;}
+
+
+.desc {
+    color: #333;
+    font-size: 1.125rem;
+    font-weight: 100;
+    width: 80%;
+    margin: 0 auto 60px;
+    text-align: center;}
+
+
+ .desc p {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 24px;}
+
+
+
+
+p {
+    text-align: left;
+    margin: 0 0 20px;
+    } 
+
+
+.icon {
+    font-size: 50px;
+    font-size: 3.125rem;
+    line-height: 1;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 52px;
+    height: 52px;
+}
+.color-black {
+    color: black;}
+
+h4 {
+color: black; 
+font-weight: bold;
+text-align: center;    
+line-height: 1.4;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin: 0 0 20px 0;}     
+
+
+
+
+
+.media-left, .media > .pull-left {
+    padding-right: 15px;}
+
+
+
+.technology li, .technology ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;}
+
+
+ .technology-list li {
+    display: inline-block;
+    font-size: 14px;
+    width: 11.11%;
+    min-width: 70px;
+    margin-bottom: 20px;}    
+
+   ul {
+    padding-left: 0;}
+
+
+
+
+footer {
+ padding: 50px 0 20px; 
+}
+footer .list-inline {
+  color: black;   
+  margin: 0;
+  padding: 0;
+}
+footer .copyright {
+
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 0;}
+
+.container1 {
+  padding-right: 0px;
+  padding-left: 0px;}     
+
+
+ .main {
+
+    color: black;} /*цвет ссылок*/
+ 
+
+ .descfoot p {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 18px;
+    color: black;}
+
+
+.text-center {
+    text-align: center;
+}
+
+.box {
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    padding: 80px;
+}
+
+input, textarea {
+    display: block;
+    font-weight: 100;
+    text-align: left;
+    transition: all 300ms ease;
+    vertical-align: top;}
+
+input.styler[type="email"], input.styler[type="password"], input.styler[type="search"], input.styler[type="tel"], input.styler[type="text"], input.styler[type="url"], textarea.styler {
+    width: 100%;
+    padding: 8px 15px;
+    border: 1px solid #cdcdcd;
+    box-shadow: none;
+    color: #000;
+    border-radius: 3px;
+}
+
+ .services2 {
+     padding-bottom: 80px;
+ }
+
+ .services3 {
+    background: #fff no-repeat center top; /*путь откуда брали фоновый рисунок*/
+    
+    padding-bottom: 80px;
+
+   
+
+    text-align: center; /*Позиционирование текста в коробки обертки по центру*/
+    height: 100%;
+   
+    
+
+    background-size: 100%;  /*размер фоновой картинки в 100 процентах */
+
+
+    -webkit-background-size: cover; /**/
+    -moz-background-size: cover; /**/
+    -o-background-size: cover; /**/
+    background-size: cover;} /**/  
+
+
+h5 {
+padding-top: 40px;    
+font-size: 20px;    
+color: black; 
+font-weight: bold;
+text-align: center;    
+line-height: 1.4;
+letter-spacing: 1px;
+text-transform: uppercase;}
+
+
+.btn {
+ background-color: white;
+ border: 1.5px solid #d1d1d1;
+ color: #525252;}
+
+
+
+
+
+.btn-success:hover,
+.btn-success:focus {
+  background-color: #d1d1d1;
+  border: 1px solid #d1d1d1;
+  color: #525252;}  

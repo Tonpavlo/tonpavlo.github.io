@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Обязательные метатеги всегда указываются первыми -->
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Адаптивность под мобильные устройства -->
+    <meta name="description" content=""> <!--Краткое содержание страницы в поисковое системе-->
+    <meta name="author" content="Павлова Антонина"> <!-- информация о владельце (авторе) сайта-->
+
+    <title>Fronted-разработчик</title> <!--Названние страницы в поисковое системе-->
+
+   <!-- Подключаем стили -->
+    <link rel="stylesheet" href="css/bootstrap.css"> 
+    <link rel="stylesheet" href="css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="contact/contact.css"> 
+  </head>
+
+  <body>
+       <!--Полоса с навигационным меню--> 
+
+      <div class="navbar navbar-default navbar-fixed-top"> <!--Основной контейнер навигации, навигация в темных тонах, фиксированное навигационное меню -->
+      <div class="container"> <!--Контейнер шапки от лого до края меню-->
+
+
+       <!-- Группируем название блога и кнопку меню для лучшего отображения смартфоне -->
+       
+       <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Навигация</span>
+                    Меню <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#">APFD</i> <!-- Логотип фирмы (обычно содержит ссылку на главную страницу) -->
+       </div>
+
+
+
+        <!-- Элементы меню -->
+
+         <div class="navbar-collapse collapse" id="..navbar-collapse"> <!-- Контейнер для содержимого меню (коллекция навигационных ссылок, формы и др.) соедененных с выпадающим меню -->
+           <ul class=" nav navbar-nav navbar-right"> <!-- Контейнер списка ссылок, расположенных справа -->
+            <li><a href="index.html">ГЛАВНАЯ</a>
+            </li>
+            <li><a href="about.html">ОБО МНЕ</a>
+            </li>
+            <li><a href="portfolio.html">ПОРТФОЛИО</a>
+            </li>
+            <li class="active"><a href="contact.html">КОНТАКТЫ</a>
+            </li>
+           </ul>     
+         </div>
+        </div>
+       </div>
+
+      <!--Фоновое изображение с заголовком контакт -->
+      <header class="intro-header">
+            <div class="container">
+               <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="page-heading">
+                <h1>Контакты</h1>
+                <hr>
+                <h2>tonpavlo@mail.ru</h2>
+                    </div> 
+                </div>
+               </div>
+            </div>  
+      </header>
+
+
+    <!-- Контент -->
+
+              <div class="container"> <!--Контейнер в котором это все будет содержатся-->
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+               <p>Если Вы хотите получить больше информации или хотели бы обсудить проект, пожалуйста, заполните форму обратной связи.</p>
+                    </div>  
+                </div>
+             
+        
+           <!--Форма-->
+         <form class="form-horizontal"> <!--Команда для формы обратной связи-->
+                      <div class="form-group form-group-lg"> <!--Коробочка для третьей строки-->
+                            <div class="col-lg-10 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1"> <!--КОробочка самой первой строки-->
+                              <div class="input-group">
+                              <span class="input-group-addon"><i class="fa fa-user-circle-o fa-fw"></i></span>
+                            <input type="text" class="form-control" placeholder="Ваше Имя*" id="Name" required data-validation-required-message="Please enter your name.">
+                              </div>
+                            </div>
+                      </div>
+                  
+                      <div class="form-group form-group-lg"> <!--Коробочка для второй строки-->
+                            <div class="col-lg-10 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1"> <!--Коробочка самой  второй строки-->
+                              <div class="input-group">
+                              <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+                            <input type="email" class="form-control" placeholder="E-mail*" id="email" required data-validation-required-message="Please enter your Email adress.">
+                              </div>
+                            </div>
+                      </div>   
+
+                 
+                      <div class="form-group form-group-lg"> <!--Коробочка для третьей строки-->
+                           <div class="col-lg-10 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1"> <!--Коробочка самой третьей строки-->
+                               <textarea rows="5" class="form-control" placeholder="Ваше сообщение*" id="Message" required data-validation-required-message="Please enter your messange.">
+                               </textarea>
+                           </div>
+                      </div>
+                      
+                      <div class="text-center">
+                      <div class="form-group"> <!--Коробочка для кнопки-->
+                           <div class="col-lg-2 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-xs-offset-5 controls">  <!--КОробочка самой кнопки-->
+                           <button type="submit" class="btn btn-success">Отправить</button>
+                      </div>
+                      </div>  
+                      </div>
+
+         </form>            
+                      
+
+
+              <!-- Footer -->
+    <footer>
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        
+                        <li>
+                            <a href="https://vk.com/tonya_pavlova
+                            ">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-vk fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="skype:tonpavlo1">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-skype fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://t.me/Tonya_Pavlova">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-telegram fa-stack-1x fa-inverse"></i>
+
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <p class="copyright text-muted">&copy; Антонина Павлова 2017</p>
+                </div>
+            </div>  
+        </div>
+
+    </footer>
+
+        <!-- jQuery -->
+    <script src="jquery/jquery-3.2.1.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="C:\Users\Boss\Desktop\Сайт\js\bootstrap.min.js"></script>
+
+  
+
+ </body>
+
+</html>   
